@@ -21,6 +21,7 @@ http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
 
         <createTable tableName="skill">
             <column name="queue_id" type="VARCHAR(255)"/>
+            <column name="person_id" type="VARCHAR(255)"/>
             <column name="position_in_queue" type="INT"/>
 
             <column name="skill_idx" type="INT"/> <!-- This is only used by the workaround example -->

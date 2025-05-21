@@ -8,6 +8,6 @@ import java.util.List;
 @Table("person")
 public record Person2(
         String id,
-        // Workaround using List and a meaningless skill_idx
+        // Workaround using List and a unnecessary skill_idx column
         @MappedCollection(idColumn = "queue_id", keyColumn = "skill_idx") List<Skill2> skills) {
 }
