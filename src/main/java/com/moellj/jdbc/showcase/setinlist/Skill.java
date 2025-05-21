@@ -1,4 +1,4 @@
-package com.moellj.jdbc.showcase.bug;
+package com.moellj.jdbc.showcase.setinlist;
 
 import org.springframework.data.relational.core.mapping.Table;
 

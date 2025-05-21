@@ -1,9 +1,9 @@
 package com.moellj.jdbc.showcase;
 
-import com.moellj.jdbc.showcase.bug.Person;
-import com.moellj.jdbc.showcase.bug.QueueRepository;
-import com.moellj.jdbc.showcase.bug.RestaurantQueue;
-import com.moellj.jdbc.showcase.bug.Skill;
+import com.moellj.jdbc.showcase.setinlist.Person;
+import com.moellj.jdbc.showcase.setinlist.QueueRepository;
+import com.moellj.jdbc.showcase.setinlist.RestaurantQueue;
+import com.moellj.jdbc.showcase.setinlist.Skill;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -19,7 +19,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @SpringBootTest
 @Testcontainers(disabledWithoutDocker = true)
 @Import({TestContainersConfig.class})
-class BugTest {
+class SetDoesntWorkTest {
 
     @Autowired
     QueueRepository queueRepository;

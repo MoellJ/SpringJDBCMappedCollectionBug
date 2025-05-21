@@ -1,4 +1,4 @@
-package com.moellj.jdbc.showcase.workaround;
+package com.moellj.jdbc.showcase.listinlist;
 
 import org.springframework.data.relational.core.mapping.Table;
 

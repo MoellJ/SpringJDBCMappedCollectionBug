@@ -1,9 +1,9 @@
 package com.moellj.jdbc.showcase;
 
-import com.moellj.jdbc.showcase.workaround.Person2;
-import com.moellj.jdbc.showcase.workaround.QueueRepository2;
-import com.moellj.jdbc.showcase.workaround.RestaurantQueue2;
-import com.moellj.jdbc.showcase.workaround.Skill2;
+import com.moellj.jdbc.showcase.listinlist.Person2;
+import com.moellj.jdbc.showcase.listinlist.QueueRepository2;
+import com.moellj.jdbc.showcase.listinlist.RestaurantQueue2;
+import com.moellj.jdbc.showcase.listinlist.Skill2;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @SpringBootTest
 @Testcontainers(disabledWithoutDocker = true)
 @Import({TestContainersConfig.class})
-class WorkaroundTest {
+class ListWorksTest {
 
     @Autowired
     QueueRepository2 queueRepository;
